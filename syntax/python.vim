@@ -292,9 +292,9 @@ if version >= 508 || !exists("did_python_syn_inits")
   " I added some colors here but i'm not sure if it is the correct place to
   " override it.
   "
-  " HiLink pythonStatement	Statement
+  HiLink pythonStatement	Statement
   HiLink pythonConstant  Constant
-  HiLink pythonStatement  Structure
+  " HiLink pythonStatement  Structure
   HiLink pythonConditional	Conditional
   HiLink pythonRepeat		Repeat
   HiLink pythonOperator		Operator
