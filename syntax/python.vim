@@ -299,8 +299,7 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonRepeat		Repeat
   HiLink pythonOperator		Operator
   HiLink pythonException	Exception
-  "HiLink pythonInclude		Include
-  HiLink pythonInclude  Operator
+  HiLink pythonInclude		Include
   HiLink pythonDecorator	Define
   HiLink pythonFunction		Function
   HiLink pythonComment		Comment
@@ -317,7 +316,7 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonClassParameters InheritUnderlined
 
   if !exists("python_no_number_highlight")
-    HiLink pythonNumber		Number
+    HiLink pythonNumber		Structure
   endif
   if !exists("python_no_builtin_highlight")
     "HiLink pythonBuiltin	Function
